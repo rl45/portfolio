@@ -13,6 +13,7 @@ import Dogappimage from './dogapp.png'
 import Travelappimage from './travelapp.png'
 import DesignProject from './Components/DesignProject'
 import arrow from './arrow.svg'
+import BackgroundVideo from './banner.mp4'
 
 
 class App extends React.Component {
@@ -65,7 +66,10 @@ class App extends React.Component {
         <Menubar></Menubar>
         <div class="container" id="home">
           <div className="Home">
-            <h1 className="margin10 title40 white" >Hi, my name is Ray and I am a recent Computer Science graduate based in Bay Area, CA. Looking for a Front-End Web Developer position.</h1>
+            <video autoPlay muted loop>
+              <source src={BackgroundVideo} type="video/mp4"></source>
+            </video>
+            <h1 className="margin10 title40 white content" >Hi, my name is Ray and I am a recent Computer Science graduate based in Bay Area, CA. Looking for a Front-End Web Developer position.</h1>
           </div>
           <About></About>
           <Project props={this.state.filmboard}></Project>
