@@ -68,7 +68,7 @@ class App extends React.Component {
           <div className="Home">
           <div className="white content" >
               <h1>Raymond Lee</h1>
-              <p >I am a Front-End Developer based in Bay Area, CA seeking a web-development position. Love making purposeful applications that brings value to people.</p>
+              <p >I am a recent Computer Science graduate from UC Santa Cruz. Love making purposeful applications that brings value to people.</p>
             </div>
           </div>
           <About></About>
