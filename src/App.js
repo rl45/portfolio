@@ -53,7 +53,7 @@ class App extends React.Component {
       },
       travelapp: {
         image: Travelappimage,
-        description: "I'm 20 years old, 2 months away from turning 21. It's the summer between my sophomore and junior year. I'm in a hotel room in Portland, and I find an insane deal for a roundtrip flight to Kona, Hawaii. As I arrive, I walk into a car rental place based off of rumours I heard online that these specific companies allow younger drivers (20-21) to rent cars if they pay a premium. And that was false. So, as I'm waiting outside at 5pm for 1 hour for my $75 uber ride to a overpacked hostel, I design an app that showcases every landmark with directions, descriptions, reviews, and images.",
+        description: "I'm 20 years old, 2 months away from turning 21. It's the summer between my sophomore and junior year. I'm in a hotel room in Portland, and I find an insane deal for a roundtrip flight to Kona, Hawaii. As I arrive, I walk into a car rental place based off of rumours I heard online that these specific companies allow younger drivers (20-21) to rent cars if they pay a premium. And that was false. So, as I'm waiting outside at 5pm for 1 hour for my $75 uber ride to a overpacked hostel, I design an app that showcases every landmark with directions, descriptions, reviews, and images. ",
         tools: ["Sketch", "SketchAppResources"],
         name:"travelapp"
       }
