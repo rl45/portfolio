@@ -20,7 +20,8 @@ html {
 }
 .title40{
   padding-top: 10%;
-  width: 50%;
+  line-height: 1.5;
+  width: 80%;
 }
 .white{
   color: white;
@@ -125,7 +126,8 @@ textarea:focus, input:focus{
 }
 
 .top40{
-  margin-top: 40%;
+  margin-top: 80%;
+  line-height: 1.5;
 }
 
 .App-logo {
@@ -201,6 +203,9 @@ textarea:focus, input:focus{
   .top40{
     margin-top: 0%;
     padding-top:10%
+  }
+  .title40{
+    width: 50%;
   }
 }
 
