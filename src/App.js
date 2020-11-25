@@ -47,13 +47,13 @@ class App extends React.Component {
       dogapp: {
         image: Dogappimage,
         description: "During my last year of college, I got an Australian Shepherd, Finn, who loves to play 24/7 so I had to figure out a way to balance college and keep him satisfied. Time was limited, and I didn't have time for 15-minute mediocre Youtube courses that funnel you into a $200 program. I needed a quick way to pull up different training techniques, find nearby dogparks with more accurate reviews, and connect to other dogs for one-on-one training sessions.",
-        tools: ["Sketch"],
+        tools: ["Sketch, SketchAppResources"],
         name:"dogapp"
       },
       travelapp: {
         image: Travelappimage,
         description: "I'm 20 years old, 2 months away from turning 21. It's the summer between my sophomore and junior year. I'm in a hotel room in Portland, and I find an insane deal for a roundtrip flight to Kona, Hawaii. As I arrive, I walk into a car rental place based off of rumours I heard online that these specific companies allow younger drivers (20-21) to rent cars if they pay a premium. And that was false. So, as I'm waiting outside at 5pm for 1 hour for my $75 uber ride to a overpacked hostel, I design an app that showcases every landmark with directions, descriptions, reviews, and images.",
-        tools: ["Sketch"],
+        tools: ["Sketch, SketchAppResources"],
         name:"travelapp"
       }
     }
