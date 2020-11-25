@@ -12,10 +12,10 @@ class Project extends React.Component {
     }
 
     webBtnClick(){
-        window.open(this.state.data.websiteLink)
+        window.open(this.state.data.props.websiteLink)
     }
     githubBtnClick(){
-        window.open(this.state.data.githubLink)
+        window.open(this.state.data.props.githubLink)
     }
     render() {
         return (
