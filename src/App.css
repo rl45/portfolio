@@ -33,18 +33,27 @@ html {
 .Home{
   height: 100vh;
   background-color: currentColor;
+  background-image: url(background.jpg);
+  background-size: cover;
   overflow: hidden;
 }
-.Home video{
+.banner{
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 0;
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 .content{
   position: relative;
+  margin-left: auto !important;
+  top: 40%;
+  margin-right: auto !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
   z-index: 1;
 
 }

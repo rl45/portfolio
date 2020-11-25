@@ -13,7 +13,7 @@ import Dogappimage from './dogapp.png'
 import Travelappimage from './travelapp.png'
 import DesignProject from './Components/DesignProject'
 import arrow from './arrow.svg'
-import BackgroundVideo from './banner.mp4'
+import BackgroundImage from './background.jpg'
 
 
 class App extends React.Component {
@@ -43,19 +43,19 @@ class App extends React.Component {
         tools: ["HTML", "CSS", "Javascript", "Netlify", "Zoho"],
         githubLink: "https://github.com/rl45/campaigntheorywebsite",
         websiteLink: "https://campaigntheory.io",
-        name:"campaigntheory"
+        name: "campaigntheory"
       },
       dogapp: {
         image: Dogappimage,
         description: "During my last year of college, I got an Australian Shepherd, Finn, who loves to play 24/7 so I had to figure out a way to balance college and keep him satisfied. Time was limited, and I didn't have time for 15-minute mediocre Youtube courses that funnel you into a $200 program. I needed a quick way to pull up different training techniques, find nearby dogparks with more accurate reviews, and connect to other dogs for one-on-one training sessions.",
         tools: ["Sketch", "SketchAppResources"],
-        name:"dogapp"
+        name: "dogapp"
       },
       travelapp: {
         image: Travelappimage,
         description: "I'm 20 years old, 2 months away from turning 21. It's the summer between my sophomore and junior year. I'm in a hotel room in Portland, and I find an insane deal for a roundtrip flight to Kona, Hawaii. As I arrive, I walk into a car rental place based off of rumours I heard online that these specific companies allow younger drivers (20-21) to rent cars if they pay a premium. And that was false. So, as I'm waiting outside at 5pm for 1 hour for my $75 uber ride to a overpacked hostel, I design an app that showcases every landmark with directions, descriptions, reviews, and images. ",
         tools: ["Sketch", "SketchAppResources"],
-        name:"travelapp"
+        name: "travelapp"
       }
     }
   }
@@ -66,10 +66,10 @@ class App extends React.Component {
         <Menubar></Menubar>
         <div class="container" id="home">
           <div className="Home">
-            <video autoPlay muted loop>
-              <source src={BackgroundVideo} type="video/mp4"></source>
-            </video>
-            <h1 className="margin10 title40 white content" >Hi, my name is Ray and I am a recent Computer Science graduate based in Bay Area, CA. Looking for a Front-End Web Developer position.</h1>
+          <div className="white content" >
+              <h1>Raymond Lee</h1>
+              <p >I am a Front-End Developer based in Bay Area, CA seeking a web-development position. Love making purposeful applications that brings value to people.</p>
+            </div>
           </div>
           <About></About>
           <Project props={this.state.filmboard}></Project>
