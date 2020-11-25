@@ -33,7 +33,7 @@ class App extends React.Component {
         description: "Ideaniche is a tool to search the top questions within any of the 138,000 subreddits. Ideaniche was created out of a need to find problems worth solving by tapping into Reddit communities and using NLP to parse the semantics of each post to find the top upvoted questions.",
         tools: ["NLP", "ReactJS", "NodeJS", "CSS", "Puppeteer"],
         githubLink: "https://github.com/rl45/ideanichemain3",
-        websiteLink: "https://ideaniche.herokuapp.com",
+        websiteLink: "https://redditscraperclient.herokuapp.com",
         name: "ideaniche"
       },
       campaigntheory: {
