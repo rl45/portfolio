@@ -16,6 +16,8 @@ function Menubar() {
                         <Nav.Link href="#filmboard">Filmboard</Nav.Link>
                         <Nav.Link href="#ideaniche">Ideaniche</Nav.Link>
                         <Nav.Link href="#campaigntheory">Campaigntheory</Nav.Link>
+                        <Nav.Link href="#travelapp">TravelApp</Nav.Link>
+                        <Nav.Link href="#dogapp">DogTrainingApp</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                  
                     </Nav>
