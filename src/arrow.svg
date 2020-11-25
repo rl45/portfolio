@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="230px" viewBox="0 0 7 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="3.5" y1="0.5" x2="3.5" y2="222.750626" id="Line" stroke-opacity="0.411494755" stroke="#4F4F4F" stroke-width="0.5" stroke-linecap="square"></line>
+        <polygon id="Triangle" fill-opacity="0.40463833" fill="#4F4F4F" transform="translate(3.500000, 226.500000) scale(-1, -1) translate(-3.500000, -226.500000) " points="3.5 223 7 230 0 230"></polygon>
+    </g>
+</svg>
