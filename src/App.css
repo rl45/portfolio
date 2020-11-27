@@ -6,10 +6,15 @@ html {
   scroll-behavior: smooth;  
 
 }
+
+
+main {
+  height: 100vh;
+  overflow: auto;  
+  scroll-snap-type: block mandatory;
+  scroll-padding: 4.25em;
+}
 .container{
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(300px);
-  scroll-snap-type: y mandatory;
   width: 100% !important;
   max-width: 100% !important;
   padding-left: 0% !important;
