@@ -11,6 +11,7 @@ import Ideanicheimage from './ideaniche.png'
 import Campaigntheoryimage from './campaigntheory.png'
 import Dogappimage from './dogapp.png'
 import Travelappimage from './travelapp.png'
+import Teslaimage from './tesla.png'
 import DesignProject from './Components/DesignProject'
 import arrow from './arrow.svg'
 import BackgroundImage from './background.jpg'
@@ -21,6 +22,14 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      tesla: {
+        image: Teslaimage,
+        description: "Came across a top design on Behance, and approached it through code. Took screenshots, cut out each component is Sketch labeling grid percentages, padding, margins, and overall layout of each component. Built the layout using React and separated the components into BottomBar, MusicView, PlayBar, SecondaryBar, and TopBar. Added an animation that allowed the user to swipe up on the playbar showcasing the MusicView. Captured the user's window height and subtracted it from the user's Y mouse position while setting boundaries to then change the CSS height of the component resulting in a seamless swipe.",
+        tools: ["ReactJS", "CSS", "Mouse Events", "Grid", "React-Feathers", "Sketch"],
+        githubLink: "https://5fc35081c2e60873f54d31a2--tesla-interface.netlify.app",
+        websiteLink: "https://5fc35081c2e60873f54d31a2--tesla-interface.netlify.app",
+        name: "tesla"
+      },
       filmboard: {
         image: Filmboardimage,
         description: "Filmboard is a pre-production software that improves the workflow speed for Filmmakers and their clients. Features include moodboards, storyboards, shot lists, vendor uploads, and sharing with users. I created Filmboard with a MERN Stack and hosted it on Heroku. As a freelance video producer, there was an itch to create a cheaper and simpler workflow for my clients and I instead of paying for 5 different tools. During this journey, it's crucial to find product validation, design through Sketch, then develop it exactly.",
@@ -47,13 +56,13 @@ class App extends React.Component {
       },
       dogapp: {
         image: Dogappimage,
-        description: "During my last year of college, I got an Australian Shepherd, Finn, who loves to play 24/7 so I had to figure out a way to balance college and keep him satisfied. Time was limited, and I didn't have time for 15-minute mediocre Youtube courses that funnel you into a $200 program. I needed a quick way to pull up different training techniques, find nearby dogparks with more accurate reviews, and connect to other dogs for one-on-one training sessions.",
+        description: "As a dog owner, I saw a need in creating an app that included training sessions, nearby dog parks, and ability to connect to other dogs. The main inspiration was to keep the app minimal and decrease the amount of interactions for the user. In the mapView, you're able to see both the maps and nearby locations without wasting any space. ",
         tools: ["Sketch", "SketchAppResources"],
         name: "dogapp"
       },
       travelapp: {
         image: Travelappimage,
-        description: "I'm 20 years old, 2 months away from turning 21. It's the summer between my sophomore and junior year. I'm in a hotel room in Portland, and I find an insane deal for a roundtrip flight to Kona, Hawaii. As I arrive, I walk into a car rental place based off of rumours I heard online that these specific companies allow younger drivers (20-21) to rent cars if they pay a premium. And that was false. So, as I'm waiting outside at 5pm for 1 hour for my $75 uber ride to a overpacked hostel, I design an app that showcases every landmark with directions, descriptions, reviews, and images. ",
+        description: "As a photographer. I'm always searching for the next best landscape location. I designed this travelApp to have a clean interface that allows me to find locations based off of catergories with each location consisting of descriptions, reviews, and gallary images from other users. Each component can expand once a user taps on it, but by having a preview window, it allows me to give more information to the user.",
         tools: ["Sketch", "SketchAppResources"],
         name: "travelapp"
       }
