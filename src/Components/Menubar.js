@@ -13,6 +13,7 @@ function Menubar() {
                     <Nav className="ml-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="#tesla">TeslaMockup</Nav.Link>
                         <Nav.Link href="#filmboard">Filmboard</Nav.Link>
                         <Nav.Link href="#ideaniche">Ideaniche</Nav.Link>
                         <Nav.Link href="#campaigntheory">Campaigntheory</Nav.Link>

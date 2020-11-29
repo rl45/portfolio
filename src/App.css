@@ -164,6 +164,12 @@ textarea:focus, input:focus{
   pointer-events: none;
 }
 
+.bio{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -236,6 +242,9 @@ textarea:focus, input:focus{
   .title40{
     width: 50%;
   }
+  .bio{
+    width: 60%;
+  }
 }
 
 /* Scroll Down */
@@ -285,3 +294,4 @@ scroll-down {
     opacity: 0;
   }
 }
+

@@ -24,7 +24,7 @@ class App extends React.Component {
     this.state = {
       tesla: {
         image: Teslaimage,
-        description: "Came across a top design on Behance, and approached it through code [Not mobile responsive due to Tesla's static screen]. Took screenshots, cut out each component is Sketch labeling grid percentages, padding, margins, and overall layout of each component. Built the layout using React and separated the components into BottomBar, MusicView, PlayBar, SecondaryBar, and TopBar. Added an animation that allowed the user to swipe up on the playbar showcasing the MusicView. Captured the user's window height and subtracted it from the user's Y mouse position while setting boundaries to then change the CSS height of the component resulting in a seamless swipe.",
+        description: "Came across a top design on Behance, and approached it through code [Not mobile responsive due to Tesla's static screen]. Took screenshots, cut out each component in Sketch: labeling grid percentages, padding, margins, and overall layout of each component. Built the layout using React and separated the components into BottomBar, MusicView, PlayBar, SecondaryBar, and TopBar. Added an animation that allowed the user to swipe up on the playbar showcasing the MusicView. Captured the user's window height and subtracted it from the user's Y mouse position while setting boundaries to then change the CSS height of the component resulting in a seamless swipe.",
         tools: ["ReactJS", "CSS", "Mouse Events", "Grid", "React-Feathers", "Sketch"],
         githubLink: "https://github.com/rl45/tesla",
         websiteLink: "https://5fc35081c2e60873f54d31a2--tesla-interface.netlify.app",
@@ -77,7 +77,7 @@ class App extends React.Component {
           <div className="Home">
           <div className="white content" >
               <h1>Raymond Lee</h1>
-              <p >I am a recent Computer Science graduate from UC Santa Cruz. Love making purposeful applications that brings value to people.</p>
+              <p className="bio">I am a recent Computer Science graduate from UC Santa Cruz. My purpose is to make impactful applications that brings value to thousands of people.</p>
             </div>
           </div>
           <About></About>
