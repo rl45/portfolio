@@ -51,7 +51,7 @@ class App extends React.Component {
         description: "Campaigntheory was created for a local entreprenuer that was interested in starting a marketing agency. The key was to create a convicing landing page that allowed customers to subscribe to a reoccuring fee throuh Zoho. This project also required using graphics and video elements to improve the visual component.",
         tools: ["HTML", "CSS", "Javascript", "Netlify", "Zoho"],
         githubLink: "https://github.com/rl45/campaigntheorywebsite",
-        websiteLink: "https://campaigntheory.io",
+        websiteLink: "https://www.campaigntheory.io",
         name: "campaigntheory"
       },
       dogapp: {
