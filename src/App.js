@@ -81,6 +81,7 @@ class App extends React.Component {
             </div>
           </div>
           <About></About>
+          <Project props={this.state.tesla}></Project>
           <Project props={this.state.filmboard}></Project>
           <Project props={this.state.ideaniche}></Project>
           <Project props={this.state.campaigntheory}></Project>
