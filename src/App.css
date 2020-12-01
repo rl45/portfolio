@@ -112,9 +112,10 @@ textarea:focus, input:focus{
   font-size: 25px
 }
 .name{
-  font-size: -webkit-xxx-large;
+  font-size: 70px;
   font-weight: 800;
 }
+
 
 .linkedinButton{
   background-color: rgb(34,89,130);
