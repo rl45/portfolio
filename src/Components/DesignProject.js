@@ -19,20 +19,23 @@ class DesignProject extends React.Component {
     }
     render() {
         return (
-            <section class="child" id={this.state.data.props.name}>
-            <div className="top40 description fullscreen web2">
-                <img src={this.state.data.props.image} width="100%" />
-                <div className="margin10 fullscreen">
-                    <p className="marginTop marginBottom">{this.state.data.props.description}</p>
-                    <h5 className="lightHeader">Tools Used</h5>
-                    <ul className="marginBottom">
-                        {this.state.data.props.tools.map((value, index) => {
-                            return <li className="lightItem" key={index}>{value}</li>
-                        })}
-                    </ul>
+            <div class="hvrbox">
+                <img src={this.state.data.props.image} alt="Raymond Lee Project" class="hvrbox-layer_bottom portfolio_image" />
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">
+                        <div className="margin10 fullscreen text">
+                            <p className="marginTop">{this.state.data.props.description}</p>
+                            <h5 className="lightHeader">Tools Used</h5>
+                            <ul className="marginBottom">
+                                {this.state.data.props.tools.map((value, index) => {
+                                    return <li className="lightItem" key={index}>{value}</li>
+                                })}
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            </section>
         );
     }
 }

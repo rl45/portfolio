@@ -11,32 +11,37 @@ class Project extends React.Component {
         }
     }
 
-    webBtnClick(){
+    webBtnClick() {
         window.open(this.state.data.props.websiteLink)
     }
-    githubBtnClick(){
+    githubBtnClick() {
         window.open(this.state.data.props.githubLink)
     }
     render() {
         return (
-            <section class="child" id={this.state.data.props.name}>
-            <div className="top40 description fullscreen web2">
-                <img src={this.state.data.props.image} width="100%" />
-                <div className="margin10 fullscreen">
-                    <p className="marginTop marginBottom">{this.state.data.props.description}</p>
-                    <h5 className="lightHeader">Tools Used</h5>
-                    <ul className="marginBottom">
-                        {this.state.data.props.tools.map((value, index) => {
-                            return <li className="lightItem" key={index}>{value}</li>
-                        })}
-                    </ul>
-                    <div className="bottomButton">
-                        <button className="width100 websiteButton" onClick={this.webBtnClick.bind(this)}>Visit Website</button>
-                        <button className="marginTop5 width100 githubButton" onClick={this.githubBtnClick.bind(this)}>View Github Code</button>
+            <div class="hvrbox">
+                <img src={this.state.data.props.image} alt="Raymond Lee Project" class="hvrbox-layer_bottom" />
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">
+                        <div className="margin10 fullscreen text">
+                            <p className="marginTop marginBottom">{this.state.data.props.description}</p>
+                            <h5 className="lightHeader">Tools Used</h5>
+                            <ul className="marginBottom">
+                                {this.state.data.props.tools.map((value, index) => {
+                                    return <li className="lightItem" key={index}>{value}</li>
+                                })}
+                            </ul>
+                            <div className="bottomButton">
+                                <button className="width100 websiteButton" onClick={this.webBtnClick.bind(this)}>Visit Website</button>
+                                <button className="marginTop5 width100 githubButton" onClick={this.githubBtnClick.bind(this)}>View Github Code</button>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
-            </section>
+
+
         );
     }
 }

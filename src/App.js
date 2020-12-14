@@ -75,18 +75,20 @@ class App extends React.Component {
         <Menubar></Menubar>
         <div class="container" id="home">
           <div className="Home">
-          <div className="white content" >
-              <h1 clasName="name">Raymond Lee</h1>
+            <div className="white content" >
+              <h1 className="name">Raymond Lee</h1>
               <p className="bio">I am a recent Computer Science graduate from UC Santa Cruz. My purpose is to make impactful applications that brings value to thousands of people.</p>
             </div>
           </div>
           <About></About>
-          <Project props={this.state.tesla}></Project>
-          <Project props={this.state.filmboard}></Project>
-          <Project props={this.state.ideaniche}></Project>
-          <Project props={this.state.campaigntheory}></Project>
-          <DesignProject props={this.state.travelapp}></DesignProject>
-          <DesignProject props={this.state.dogapp}></DesignProject>
+          <div class="wrapper">
+            <Project props={this.state.tesla}></Project>
+            <Project props={this.state.filmboard}></Project>
+            <Project props={this.state.ideaniche}></Project>
+            <Project props={this.state.campaigntheory}></Project>
+            <DesignProject props={this.state.travelapp}></DesignProject>
+            <DesignProject props={this.state.dogapp}></DesignProject>
+          </div>
           <Contact></Contact>
         </div>
       </div>

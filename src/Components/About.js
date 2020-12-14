@@ -25,7 +25,7 @@ class About extends React.Component {
                         <p>As the son of two immigrant parents, I learned the importance of work-ethic from an early age. With their strong hard-working mentality engrained in me, I graduated from UC Santa Cruz with a Computer Science degree and started at a marketing internship at a nearby startup.
                            Both of my parents were small business owners so I understood the struggle of finding leads, and differentiating from other local businesses. I quickly realized I wanted to make a larger impact with my career and also wanted to work directly with clients. So, I set out on my own.
                            <br /><br />While I was studying Computer Science in the morning and building up my web development skills, I would do freelance video production for small businesses, agencies, corporate companies, and sports-teams. Some clients include Oakland-Roots, Udemy, Summitry, All-Cal Financial, and Jamestown.<br /><br />
-                            Since graduating, my focus is to combine my marketing skills and Computer Science skills to create purposeful applications to bring value to people's lives.
+                            Since graduating, my focus is to combine my marketing skills and Computer Science skills to create purposeful applications to bring value to thousands of people.
             </p>
 
                         <div className="bottomButton">
