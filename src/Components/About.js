@@ -29,8 +29,8 @@ class About extends React.Component {
             </p>
 
                         <div className="bottomButton">
-                        <a  href={Resume} download="resume.pdf"><button className="width100 websiteButton">Download Resume</button></a>
-                        <button className="marginTop5 width100 linkedinButton" onClick={this.linkedinClick.bind(this)}> Linkedin Profile</button>
+                        <a  href={Resume} download="resume.pdf"><button className="width50 websiteButton">Download Resume</button></a>
+                        <button className="marginTop5 width50 linkedinButton" onClick={this.linkedinClick.bind(this)}> Linkedin Profile</button>
                         </div>
 
                     </div>

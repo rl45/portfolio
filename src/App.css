@@ -12,6 +12,9 @@ html {
   grid-template-rows: minmax(100px, auto);
   grid-template-columns: auto;
 }
+p{
+  color: white;
+}
 
 
 main {
@@ -25,6 +28,7 @@ main {
   max-width: 100% !important;
   padding-left: 0% !important;
   padding-right: 0% !important;
+  background-color: rgb(17, 17,17);
 }
 .child {
   scroll-snap-align: start;
@@ -69,6 +73,10 @@ main {
 
 }
 
+.text-white{
+  color: white;
+}
+
 .marginTop{
   margin-top: 10%;
 }
@@ -79,14 +87,24 @@ main {
   margin-top: 5%;
 }
 .contactForm{
-  background-color: rgb(236,236,236);
+  background-color: transparent;
+  border-bottom: solid 0.5px white;
+  color: whitesmoke;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   padding-left: 10px;
-  margin-top: 10px;
-  border: none;
+  padding-bottom: 10px;
+  margin-top: 20px;
 }
 .submitBtn{
-  background-color: transparent;
-  border: 1px solid black;
+  background-color: white;
+  color: rgb(17, 17,17);
+  margin-top: 20px !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  border: none;
 }
 .contactDiv{
   margin-top: 50%;
@@ -212,6 +230,9 @@ textarea:focus, input:focus{
 .width100{
   width: 100%;
 }
+.width50{
+  width: 50%;
+}
 .arrow{
   display: block;
   margin-left: auto;
@@ -288,12 +309,16 @@ textarea:focus, input:focus{
 
 
 @media only screen and (min-width: 1040px){
+  .grid50{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
   .arrow{
     margin-top: 20%;
     height: 70%;
   }
   .web{
-    grid-template-columns: 80% 40%;
+    grid-template-columns: 50% 50%;
     display: grid;
   }
   .bottomButton{
@@ -309,13 +334,18 @@ textarea:focus, input:focus{
     width: 100%;
   }
   .contactDiv{
-    width: 50%;
-    margin-top: 10%;
+    width: 100%;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
   }
   .centerTextWeb{
     text-align: center;
+    color: white;
+  }
+  .left-align{
+    text-align: left;
+    color: white;
   }
   .top40{
     margin-top: 0%;

@@ -77,7 +77,7 @@ class App extends React.Component {
           <div className="Home">
             <div className="white content" >
               <h1 className="name">Raymond Lee</h1>
-              <p className="bio">I am a recent Computer Science graduate from UC Santa Cruz. My purpose is to make impactful applications that brings value to thousands of people.</p>
+              <p className="bio">My purpose is to make impactful applications that brings value to thousands of people.</p>
             </div>
           </div>
           <About></About>

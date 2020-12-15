@@ -32,8 +32,8 @@ class Project extends React.Component {
                                 })}
                             </ul>
                             <div className="bottomButton">
-                                <button className="width100 websiteButton" onClick={this.webBtnClick.bind(this)}>Visit Website</button>
-                                <button className="marginTop5 width100 githubButton" onClick={this.githubBtnClick.bind(this)}>View Github Code</button>
+                                <button className="width50 websiteButton" onClick={this.webBtnClick.bind(this)}>Visit Website</button>
+                                <button className="marginTop5 width50 githubButton" onClick={this.githubBtnClick.bind(this)}>View Github Code</button>
                             </div>
                         </div>
                     </div>
